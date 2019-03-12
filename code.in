@@ -1,0 +1,12 @@
+10
+set R1 R0
+snd R1
+rcv R0
+mul R1 123
+jgz R1 -1
+mul R1 -1
+mod R1 10
+snd R1
+add R1 2001
+add R1 -2003
+jgz R1 -3
